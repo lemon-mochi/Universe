@@ -11,14 +11,11 @@ set(CMAKE_CXX EXTENSIONS OFF)
 
 add_executable(universe_sim
     src/main.cpp
-    # src/Universe.cpp
-    # src/Star.cpp
-    # src/Planet.cpp
-    # src/Asteroid.cpp
-    # src/Comet.cpp
-    # src/BlackHole.cpp
-    # src/Galaxy.cpp
-    # src/Simulation.cpp
+    src/Timeline.cpp
+    src/UI.cpp
+    src/Cosmology.cpp
+    src/Formatting.cpp
+    src/Simulation.cpp
 )
 
 target_include_directories(universe_sim PRIVATE include)
