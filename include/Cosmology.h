@@ -3,6 +3,7 @@
 #include <vector>
 
 #include "SimParams.h"
+#include "Event.h"
 
 enum class Fate {
     HEAT_DEATH,
