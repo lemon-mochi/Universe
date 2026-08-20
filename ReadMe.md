@@ -1,6 +1,6 @@
 # Universe Simulator #
 Program written in C++ to simulate the universe (only works in termianl. There is no frontend).
-### File structure ###
+## File structure ##
 ```
 universe-simulator/
 ├── include/ # header file
@@ -55,14 +55,14 @@ universe-simulator/
 ├── .gitignore # file ignored by Git
 ├── ReadMe.md # this file
 ```
-### Running the program ###
+## Running the program ##
 ```
 cmake -S . -B build # create build/ directory
 cd build # move into build/ directory
 make # compile the program
 ./universe_sim # run the C++ propgram
 ```
-### The program ###
+## The program ##
 Initially, the terminal should look like this:
 ```
 ========================================================================
@@ -80,6 +80,8 @@ MAIN MENU
   4) View current parameters
   5) Quit
 ```
+
+### Parameters ###
 By pressing `3`, you can configure the parameters. Here are what the adjustable parameters are:\
 Hubble constant H0 (km/s/Mpc) [67.4]\
 Omega_matter (matter density, ~0.3 realistic) [0.315]\
